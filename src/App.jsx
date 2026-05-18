@@ -6,7 +6,7 @@ import Register from "./page/Register/Register";
 import Dashboard from "./page/Dashboard/Dashboard";
 
 import HarajatQoshish from "./component/HarajatQoshish/HarajatQoshish";
-import SonggiHarajatlar from "./component/SonggiHarajatlar/SonggiHarajatlar";
+import SonggiHarajatlar from "./component/SonggiHarajatlar/Songgiharajatlar";
 
 // Himoyalangan route komponenti
 const PrivateRoute = ({ children }) => {

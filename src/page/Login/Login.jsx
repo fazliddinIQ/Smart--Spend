@@ -31,7 +31,7 @@ function Login() {
         <div className="auth-header">
           <LogIn size={40} className="auth-icon text-primary" />
           <h2>Tizimga Kirish</h2>
-          <p>Davom etish uchun loginingizni kiriting</p>
+          <p>Davom etish uchun loginingizni kiriting...</p>
         </div>
 
         {error && <div className="auth-error">{error}</div>}
