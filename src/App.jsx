@@ -5,8 +5,9 @@ import Login from "./page/Login/Login";
 import Register from "./page/Register/Register";
 import Dashboard from "./page/Dashboard/Dashboard";
 
-import HarajatQoshish from "./component/HarajatQoshish/HarajatQoshish";
-import SonggiHarajatlar from "./component/Songgiharajatlar/Songgiharajatlar";
+// FIXED: Changed "component" to "components" and standardized folder/file casing
+import HarajatQoshish from "./components/HarajatQoshish/HarajatQoshish";
+import SonggiHarajatlar from "./components/SonggiHarajatlar/SonggiHarajatlar";
 
 // Himoyalangan route komponenti
 const PrivateRoute = ({ children }) => {
